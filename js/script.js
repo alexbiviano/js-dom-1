@@ -12,4 +12,4 @@ btnToggleLight.addEventListener('click', () => {
     isLightOn = !isLightOn;
     imgLampadina.src = isLightOn ? pathImgLightOn : pathImgLightOff;
     btnToggleLight.innerHTML = isLightOn ? textSpegni : textAccendi;
-  })
+  }) 
